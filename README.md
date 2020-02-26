@@ -4,7 +4,7 @@
 You will implement a number of sorting algorithms, and then test their performance. This assignment will consist of not just coding, but also testing your code using large data sets. Note that when all of your code is complete and debugged, you still have a fair amount of work to do -- so start early!
 
 For the assignment, you will need to write sorting algorithms for: Selection Sort, Bubble Sort, and Merge sort that work on arrays of random sizes. Your sorting project will contain:
-Sorting class interface (provided)
+Sorting class interface (provided) and
 Sort class, which implements the interface class
 SortTest class which contains your main program
 It is critically important that:
@@ -44,3 +44,8 @@ You might notice that there is some non-sorting work done in the above algorithm
    duration = ((double) (endTime - startTime)) / NUMITER;
 
 You should subtract this setup time from your algorithm running time, to get more accurate results.  Your main program may run in either interactive mode or batch mode (though you do not need to implement both modes, just the one that is easiest for you to use in testing.)
+
+The methods you write: should have headers that look like this
+public void selectionSort(int[] array, int lowindex, int highindex, boolean reversed)
+
+Also very straightforward.  Your sorting algorithm needs to work over a range of indicies in the array,  and you need to be able to sort the list backwards, if the reversed flag is true.  Your algorithm should sort all elements in the array in the range lowindex..highindex (inclusive).  You should not touch any of the data elements outside the range lowindex .. highindex. 
