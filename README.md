@@ -1,6 +1,6 @@
 #APCSA-Sorting
 
-## Assignment Due on Friday Monday, March 6
+## Assignment Due on Friday, March 6
 
 ### You will implement a number of sorting algorithms, and I will test their performance. This assignment will consist of not just coding, but also testing your code using large data sets before I do.
 
