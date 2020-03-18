@@ -3,10 +3,12 @@ public class Sort implements SortInterface
     public void bubbleSort(int[] array, int lowindex, int highindex, boolean reversed)
     {
         if (highindex >= array.length  || lowindex >= highindex || array.length <=0 )
-            {System.out.println("Check the conditions."); return;}
+        {
+              System.out.println("Check the conditions.");
+              return;
+          }
         else
         {
-
             int temp;
             if (reversed)
             {
@@ -40,7 +42,7 @@ public class Sort implements SortInterface
 
             }
         }
-
+        //System.out.print(printarraystring(array,lowindex,highindex));
 
     }
     public void selectionSort(int[] array, int lowindex, int highindex, boolean reversed)
@@ -49,9 +51,7 @@ public class Sort implements SortInterface
             {System.out.println("Check the conditions."); return;}
         else
         {
-
             int temp;
-
             if (reversed)
             {
                 int min;
